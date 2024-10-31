@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" );
+@media (max-width:768px) {
+    .nav-link {
+        margin-right: 10px; 
+        /* Adjust for smaller screens */
+    }
+}
+.nav-link{
+    margin-right:10px;
+}
+@media (max-width:768px) {
+    .nav-text {
+        margin-right: 0px; 
+        margin-left:0px;
+        /* Adjust for smaller screens */
+    }
+}
+.navbar-text
+{
+    
+    margin-right:600px;
+    margin-left:40px;
+}
+.active-bg
+{
+    background-color:grey;
+    
+}
+.navbar-toggler-active .nav-link
+
+{
+
+    color:rgb(218, 18, 18);
+}
+.navbar-custom-1
+{
+    background-color: #192f59;
+    
+}
+ .navbar-custom-2
+{
+    background-color:white;
+}
+#abc
+{
+padding-top:6px;
+}
+
+.container-fluid1 {
+    position: relative;
+    
+}
+
+.row1
+{
+    position:absolute;
+    top:30px;
+    display:flex;
+    justify-content: space-between;
+}
+.left-text
+{
+    width:30%;
+    color:white;
+margin-top:100px;
+margin-left:10px;
+
+}
+.right-text
+{
+    width:65%;
+}
+.right-text #p1
+{     margin-right:90px;
+    margin-top:100px;
+    color:#d8e3fb;
+    line-height:1.6;
+    font-size:1.8em;  
+}
+.right-text #p2
+{    margin-right:90px;
+    color:white;
+    font-weight:500;
+    line-height:1.6;
+    font-size:1.4em;
+    
+    
+}
+.img-fluid {
+    width: 100%;
+    height:auto;
+
+     /* Make image responsive */
+     /* Maintain aspect ratio */
+}
+@media (max-width:768px) {
+    .img-fluid {
+        
+         width: 100%; 
+         height:800px;
+         
+         
+        
+        
+     }
+ }   
+ @media (max-width:300px) {
+    .img-fluid {
+        
+         width: 100%; 
+         height:1600px;
+         
+         
+        
+        
+     }
+ }   
+
+@media (max-width: 768px) {
+   .left-text, .right-text {
+       position:relative;
+       top:0px;
+       left:50px;
+       right:50px;
+       
+        width: 100%; 
+        
+       
+       
+    }
+}   
+
+
+
+    .left-text
+    {
+        order:1;
+    }
+    .right-text {
+        order:2;
+    }
+    
+
+@media(max-width:768px)
+{
+    .right-text
+    {
+        margin-top:-110px;
+        font-size: .9em;
+    }
+}
+@media(max-width:768px)
+{
+    .left-text
+    {
+        margin-top:-20px;
+        font-size:1em;
+    }
+}
+
+/*    */
+.container-fluid2 {
+    position:relative;
+    
+}
+@media(max-width:768px)
+{
+.img-fluid1
+
+{
+    width:100%;
+    height:900px;
+}
+}   
+@media(max-width:300px)
+{
+.img-fluid1
+
+{
+    width:100%;
+    height:auto;
+    
+}
+}   
+
+.row2
+{  width:100%;
+    top:30px;
+    position:absolute;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+
+.left-text1
+{  
+    padding-top:50px;
+    width:50%;
+    color:white;
+text-align:center;
+font-size:1.5em;
+
+}
+.right-text1 
+{ padding-top:50px;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-size:1.5em;
+    
+}
+#para
+{
+    line-height :1.6;
+}
+.head
+{
+    padding-top:40px;
+    padding-bottom:10px;
+}
+#para
+{
+    padding-top:20px;
+    padding-bottom:60px;
+}
+
+.button1
+{
+    background-color: #2d9954;
+    color:white;
+}
+@media (max-width: 768px) {
+    .left-text1, .right-text1 {
+        position:relative;
+        top:0;
+        left:auto;
+        right:auto;
+        
+         width: 100%; 
+         height:auto;
+         
+        
+        
+     }
+ }   
+
+
+ 
+     .left-text1
+     {
+         order:1;
+     }
+     .right-text1 {
+         order:2;
+     }
+
+     .container-fluid3
+     {
+        position:relative;
+        background-color: #2d9954;
+        width:98%;
+        height:720px;
+
+     }
+     .row2
+{  
+    top:30px;
+    position:absolute;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.left-text2
+{
+    padding-top:50px;
+    width:50%;
+    color:white;
+text-align:center;
+font-size:1.5em;
+
+}
+.right-text2
+{ padding-top:50px;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-size:1.5em;
+    
+}
+.left-text2
+{
+    order:1;
+}
+.right-text2 {
+    order:2;
+}
